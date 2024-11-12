@@ -19,6 +19,22 @@ I am using [Visual Studio Code](https://code.visualstudio.com/) and [Notepad++](
 
 ---
 
+### Building / Compiling / Project Structure
+
+I build with g++ with these commands from the ```Proyecto/``` directory:
+
+App Compiling
+```
+g++ src/app_name.cpp -o ./build/bin/app_name.exe
+```
+
+Tests Compiling
+```
+g++ testing/test_file_name.cpp -o ./build/bin/test_file_name.exe
+```
+
+---
+
 # Stage 1
 
 Turn the provided Binary Search Tree code into TreeMap code, and implement these functions:

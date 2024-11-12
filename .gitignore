@@ -3,6 +3,10 @@
 *.doc
 
 # Output Files
-Proyecto/*.obj
-Proyecto/*.o
-Proyecto/*.exe
+Proyecto/build/
+*.obj
+*.o
+*.exe
+
+# VSC Files
+.vscode/
