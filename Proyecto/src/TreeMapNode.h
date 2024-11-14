@@ -22,7 +22,7 @@ public:
 	void setItem(K& key, V& value);
 	int count();
 	void add(K& key, V& value);
-	V& get();
+	V& getValue();
 
 	TreeMapNode<K, V>* getParent();
 	TreeMapNode<K, V>* getLeft();
@@ -75,7 +75,7 @@ TreeMapNode<K, V>::~TreeMapNode() {
 }
 
 template <typename K, typename V>
-V& TreeMapNode<K, V>::get() {
+V& TreeMapNode<K, V>::getValue() {
 	return this->value;
 }
 
